@@ -1,0 +1,199 @@
+﻿body { /*to make the body occupy all the sides of the web*/
+    margin: 0px;
+    padding: 0px;
+    background-color: #feece2;
+}
+
+#frontPage { /*designing the front page*/
+    padding: 0.1px;
+    background-color: #ffbe98;
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+p { /*for all of the p tags to have a "georgia" font*/
+    font-family: 'Georgia';
+}
+
+#headerLine { /*designing the horizontal line so that there's a line below the header*/
+    height: 2px;
+    margin-top: -1px;
+    border: none;
+    background-color: black;
+}
+
+#introText p { /*designing the text in the front page*/
+    position: absolute;
+    left: 100px;
+    margin-top: 160px;
+    width: 500px;
+    text-align: justify;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+#introText p #name {/*designing the id name inside the text in the home page*/
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#introText p #aboutMe { /*designing the a"bout me" word in the home page*/
+    font-style: italic;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+#introText a { /*making the hyperlink black*/
+    color: black;
+}
+
+#introText a:hover { /*making the hyperlink goes red when being hover*/
+    color: red;
+}
+
+#landingPage img { /*designing the image in the home page*/
+    position: absolute;
+    margin-top: 20px;
+    right: 15px;
+    height: 420px;
+    width: 270px;
+    border: 20px ridge black;
+    background-color: #ede5d8;
+    border-radius: 5px;
+}
+
+header { /*designing the header on all og the pages*/
+    padding: 39px 15px 39px 39px;
+    background-color: #ffbe98;
+    text-align: right;
+    font-family: 'Georgia';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+header a { /*designing the hyperlinks inside the header*/
+    text-decoration: none;
+    font-size: 18px;
+    color: black; 
+}
+
+header a:hover { /*making the hyperlinks bold when being hover*/
+    font-weight: bolder;  
+    font-size: 19px;
+}
+
+header a:active { /*making a shadow for hyperlinks when being click*/
+    text-shadow: 3px 3px 3px #888;
+}
+
+header span { /*making the divider of the hyperlinks bolder*/
+    font-weight: bolder;
+}
+
+header .currentPage { /*designing all the hyperlinks with "currentPage" class*/
+    cursor: not-allowed;
+    padding: 25px 10px 40px 10px;  
+    background-color: #feece2;
+    border: 2px solid black;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: -10px;
+    font-weight: bolder;  
+    font-size: 19px;
+    text-shadow: 3px 3px 3px #888;
+}
+
+h2 { /*designing ebery h2 in the page*/
+    font-style: oblique;
+    margin: 20px 0 0 60px;
+    font-size: 50px;
+}
+
+#personalInfo p { /*designing all the p tags in personal information page*/
+    margin: 20px 0 0 100px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+#personalInfo p span{ /*designing all the spans inside the p tags in personal information page*/
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#personalInfo #weight { /*designing the text that has "weight" id in personal information page*/
+    margin-left: 40px;
+}
+
+#personalInfo #sex { /*designing the text that has "sex" id in the personal information page*/
+    margin-left: 88px;
+}
+
+#personalInfo p a { /*designing the hyperlink in the personal information page*/
+    color: black;
+}
+
+#education p { /*designing all the p tags in education page*/
+    margin: 20px 0 0 100px;
+    font-size: 25px;
+    letter-spacing: 0.1px;
+}
+
+#education p span { /*designing all the spans inside the p tags in education page*/
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#skills p { /*designing all the p tags in skills page*/
+    margin: 20px 15px 15px 100px;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+#skills p span { /*designing all the spans inside the p tags in skills page*/
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#projects p { /*designing all the p tags in project page*/
+    margin: 20px 15px 15px 100px;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+#projects p span { /*designing all the spans inside the p tags in project page*/
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#projects p img {  /*designing all the images in project page*/
+    margin: 30px;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#contactInfo p { /*designing all the p tags in contact information page*/
+    margin: 20px 0 0 120px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#contactInfo p span {  /*designing all the spans inside the p tags in contact information page*/
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#contactInfo h5 { /*designing all the h5 in the contact inforamtion page*/
+    margin: 35px 100px;
+    font-size: 30px;
+}
+
+#contactInfo p a { /*designing the hyperlinks in the contact information page*/
+    font-style: italic;
+    color: black;
+}
